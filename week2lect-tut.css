@@ -1,10 +1,10 @@
  
  body{
-    background-color: pink;
+    background-color: cyan;
  }
 
 h1,h2,h3,h4,h5,h6{
-    color: blue;
+    color: navy;
     background-color: rgb(21, 170, 189);
 }
 
