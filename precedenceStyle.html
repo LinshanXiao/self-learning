@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="precedence.css">
+    <style>
+        p{
+            color:red;
+        } 
+    </style> 
+    
+    <title>Precedence inline external Inline</title>
+</head>
+<body> 
+    <p style="color:blue">Paragraph1</p>
+    <p id="change">Paragraph2</p>
+    <p>Paragraph3</p>
+    <p>Paragraph4</p>
+    <p>Paragraph5</p>
+    
+</body> 
+</html>
+
+
+<!--这里的p标签的颜色是红色，但是第一个p标签的颜色是蓝色，
+因为内联样式的优先级高于外部样式表的优先级，
+所以第一个p标签的颜色是蓝色-->
+<!-- !important的优先级是no1 -->
