@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title> First Page </title>
-    <link rel="stylesheet" type="text/css" href="week2lect-tut.css">
-   
-   
-    
-    <script src="function.js"></script>
-    
-    <script>
+
         function validateStudents() {
             var groupMembers = document.getElementById('groupMembers').value;
             var student1 = document.getElementById('student1').value;
@@ -58,70 +48,4 @@
             var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             return re.test(email);
         }
-    </script>
-    
-</head>
-
-<body>
-<div id ="halfpage"> 
-    <h2 class="class1"> Group project sign-up</h2>
-    <form action="">
-
-    <input type="number" name="groupMembers" id="Groupmembers" placeholder="Enter number of group members" min="1" max="4"> 
-    <br><br> 
-    <label for ="student1"> Student 1: </label>
-    <input type="number" name="std1" id="student1"> 
-    <br><br>
-    <label for ="student2"> Student 2: </label>   
-    <input type="number" name="std1" id="student2">
-    <br><br>
-    <label for ="student3"> Student 3: </label>
-    <input type="number" name="std1" id="student3">
-    <br><br>
-    <label for ="student4"> Student 4: </label>
-    <input type="number" name="std1" id="student4">
-    <br><br> 
-    
-    <input type="submit" value="Submit" class="class1"> 
-    
-    </form>
-
-    <button onclick="askForANumber()"> Click Me</button>
-
-<table border="1" cellspacing="0" cellpadding="10 ">
-    <tr>
-        <th>Std.no</th>
-        <th>student1</th> 
-        <th>student2</th>
-        <th>student3</th> 
-        <th>student4 </th>
-    </tr>
-    <tr> 
-        <td>1</td>
-        <td>0000123</td>
-        <td>0000124 </td>
-        <td>0000125</td>
-        <td>0000126</tr>
-    </tr>
-    <tr> 
-        <td>2</td>
-        <td>1000123</td>
-        <td>1000124 </td>
-        <td>1000125</td>
-        <td>1000126</tr>
-    </tr>
-</table>
-</div>
-
-<a href="https://handbooks.uwa.edu.au/unitdetails?code=CITS3403" target="_blank">
-    Agile Web Outline
-</a>
-<br>
-<a href="#pageHeader">Go to Top</a>
-
-
-</body>
-
  
-
-</html>
