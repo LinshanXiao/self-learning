@@ -8,7 +8,7 @@ projects = [
     Project(students=[ "00123457", "00123453", "00123452", "00123456"])
     ]
 
-@application.route('/projects')
+@application.route('/')
 def view_projects():
     return render_template('index.html', projects=projects)
 
